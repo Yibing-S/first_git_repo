@@ -23,7 +23,6 @@ select * from bureau limit 100;
 # 5
 select credit_type, count(*), count(distinct sk_id_curr)
 from bureau group by 1;
--- one customer can help multiple same credit products
 
 # 6
 select a.*,
